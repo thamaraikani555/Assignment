@@ -1,0 +1,24 @@
+{
+  "name": "Justo Global Assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "",
+    "dev": "nodemon src/app.js --exec"
+  },
+  "author": "ThamaraiKani",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "moment": "^2.30.1",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
